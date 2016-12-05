@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firat.odev">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/bilgisayar"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GirisActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Ikinci">
+
+        </activity>
+        <activity android:name=".Ucuncu">
+
+        </activity>
+        <activity android:name=".Dorduncu">
+
+        </activity>
+        <activity android:name=".Besinci">
+
+        </activity>
+        <activity android:name=".Altinci">
+
+        </activity>
+        <activity android:name=".Yedinci">
+
+        </activity>
+    </application>
+
+</manifest>
